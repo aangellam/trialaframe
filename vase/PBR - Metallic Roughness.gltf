@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 13680,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2451,
+      "max": [
+        0.517009854316711,
+        0.99999988079071,
+        0.517010390758514
+      ],
+      "min": [
+        -0.517009854316711,
+        -1.00000011920929,
+        -0.517010390758514
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2451,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2451,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2018.1.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 54720,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 29412,
+      "byteOffset": 54720,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 29412,
+      "byteOffset": 84132,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 19608,
+      "byteOffset": 113544,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 133152,
+      "uri": "PBR - Metallic Roughness.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "phong3_baseColor.png"
+    },
+    {
+      "uri": "phong3_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "phong3_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "phong3",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "house_interior:Teapot001",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root",
+      "scale": [
+        0.44063526391983,
+        0.44063526391983,
+        0.44063526391983
+      ],
+      "translation": [
+        -4.25542449951172,
+        1.78154921531677,
+        -3.0548779964447
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "house_interior:Teapot001"
+    },
+    {
+      "mesh": 0,
+      "name": "house_interior:Teapot001"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
